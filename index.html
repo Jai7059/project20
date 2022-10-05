@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project_20_Super Wars</title>
-    <style>
-        .footer{
-                margin-left : 80px;
-                font-size : 18px;
-                margin-top: 300px;
-        }
-        .main{
-            display: grid;
-            grid-template-columns: repeat(5,auto);
-            width: 20px;
-            margin-left: 180px;
-            text-align: center;
-            column-gap: 10px;
-        }
-        .sc{
-            border: 1px solid rgb(221, 219, 219);
-            border-radius: 5px;
-            box-shadow: 1px 1px 1px 1px gray;
-        }
-        div :nth-child(3){
-            padding-left: 80px;
-            padding-right: 80px;
-        }
-    </style>
-   
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="main">
-        <div align="center" class="sc">
-            <img src="sm.jpg"><br>
-             spiderman<br>
-             <h1>12</h1>
-        </div>
-        <div align="center" class="sc">
-            <img src="pickachu.png"><br>
-             Ash and pickachu<br>
-             <h1>30</h1>
-        </div>
-        <div align="center" width="125%"> <h1>5 - 0</h1></div>
-        <div align="center" class="sc">
-            <img src="CA3.jpg"><br>
-             Captain America<br>
-             <h1>12</h1>
-        </div>
-        <div align="center" class="sc">
-            <img src="joey.jpg"><br>
-             Oggy and cockroaches<br>
-             <h1>12</h1>
-        </div>
-
+    <div style="text-align:center; background-color:rgb(0, 255, 170); color: rgb(20, 136, 238);">
+        <h1>Sign Up</h1>
+    </div>
+    <div style="text-align:center; background-color:rgb(128, 0, 0);">
+    <p style="color:rgb(0, 153, 255);">First Name: <input type="text" placeholder="Enter First Name"></p>
+    <p style="color:rgb(0, 174, 255);">Last Name: <input type="text" placeholder="Enter Last Name"></p>
+    <p style="color:rgb(0, 183, 255);">Date of Birth:
+        <input type="date">
+    </p> 
+    <p style="color:yellow;">
+        Gender: <input type="radio" name="gender">Male
+        <input type="radio" name="gender">female
+    </p>
+    <p style="color:rgb(0, 255, 98);">
+        Country:
+        <select name="Country">
+            <option value="" disabled selected>Country</option>
+            <option>
+                India
+            </option>
+            <option>
+                USA
+            </option>
+            <option>
+                Russia
+            </option>
+        </select>
+    </p>
+    <p style="color:yellow;">
+        Email: <input type="text" placeholder="Enter Email">
+    </p>
+    <p style="color:yellow;">
+        Phone: <input type="text" placeholder="Enter Phone">
+    </p>
+    <p style="color:yellow;">
+        Password: <input type="password">
+    </p>
+    <p style="color:yellow;">
+        Confirm Password: <input type="password">
+    </p>
+    <p style="color:yellow;">
+        <input type="checkbox"> I agree to terms of use
+    </p>
+    </div>
+    <div style="text-align:right; background-color:rgb(68, 0, 255);">
+        <button style="height: 30px; width: 60px; background-color: rgb(135, 209, 25);">
+            Submit
+        </button>
+        <button style="height: 30px; width: 60px; background-color: rgb(255, 0, 85);">
+            Cancel
+        </button>
     </div>
 </body>
-
 </html>
